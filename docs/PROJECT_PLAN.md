@@ -32,22 +32,22 @@ Use GitHub-style checkboxes: replace [ ] with [x] when done.
 
 ## Step 0 – Prerequisites & Environment
 
-- [ ] Step 0 complete
+- [x] Step 0 complete
 
 **Goal**: Ensure local environment meets toolchain requirements.
 
 **Why**: Vite 7 requires Node.js >= 20.19.x or >= 22.12.x. Current error shows Node 20.5.0 is unsupported, causing dev server failure.
 
 **Tasks**
-- [ ] Install/Update Node using nvm
-  - [ ] Install nvm (macOS)
-  - [ ] `nvm install 22 && nvm use 22`
-  - [ ] Set default: `nvm alias default 22`
-- [ ] Verify versions
-  - [ ] `node -v` shows v22.x or >=20.19.x
+- [x] Install/Update Node using nvm
+  - [x] Install nvm (macOS)
+  - [x] `nvm install 22 && nvm use 22`
+  - [x] Set default: `nvm alias default 22`
+- [x] Verify versions
+  - [x] `node -v` shows v22.x or >=20.19.x
   - [ ] `npm -v` up to date (optional)
-- [ ] Validate dev server will run
-  - [ ] `npm run dev` in `react-app` starts Vite without engine errors
+- [x] Validate dev server will run
+  - [x] `npm run dev` in `react-app` starts Vite without engine errors
 
 **Notes**
 - [ ] Note: Organization Node policy or constraints
@@ -57,8 +57,8 @@ Use GitHub-style checkboxes: replace [ ] with [x] when done.
 - [ ] Add CI Node version matrix (build against v22)
 
 **Definition of Done**
-- [ ] Node version upgraded and persisted with nvm default
-- [ ] Vite starts locally without engine/crypto errors
+- [x] Node version upgraded and persisted with nvm default
+- [x] Vite starts locally without engine/crypto errors
 
 **Commands**
 ```bash
