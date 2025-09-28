@@ -233,9 +233,9 @@ node -v
 **Tasks**
 
 - [X] `store/store.js` and `rootReducer.js`
-- [ ] Middleware: `logger`, `errorHandler`, `apiMiddleware`
+- [X] Middleware: `logger`, `errorHandler`, `apiMiddleware`
 - [X] Slices: `auth`, `products`, `cart`, `orders`, `user`, `location`, `ui`
-- [ ] Memoized selectors with `reselect`
+- [X] Memoized selectors with `reselect`
 
 **Notes**
 
@@ -253,16 +253,16 @@ node -v
 
 ## Step 7 – API layer (Axios client + interceptors)
 
-- [ ] Step 7 complete
+- [X] Step 7 complete
 
 **Goal**: Standardized HTTP client with interceptors and endpoints.
 
 **Tasks**
 
-- [ ] `datasources/remote/api/ApiClient.js` (axios wrapper)
-- [ ] `ApiInterceptor.js` for auth headers, refresh, error normalization
-- [ ] `endpoints.js` central definitions
-- [ ] Common models: `ApiResponse`, `ApiError`, `PaginationModel`
+- [X] `datasources/remote/api/ApiClient.js` (axios wrapper)
+- [X] `ApiInterceptor.js` for auth headers, refresh, error normalization
+- [X] `endpoints.js` central definitions
+- [X] Common models: `ApiResponse`, `ApiError`, `PaginationModel`
 
 **Notes**
 
@@ -274,7 +274,7 @@ node -v
 
 **Definition of Done**
 
-- [ ] Client used by repositories; 401/403 handled; errors normalized
+- [X] Client used by repositories; 401/403 handled; errors normalized
 
 ---
 
