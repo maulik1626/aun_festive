@@ -2,7 +2,8 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import "@assets/styles/globals.css";
-import App from "./App.jsx";
+import { BrowserRouter } from "react-router-dom";
+import AppRouter from "@navigation/AppRouter";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 
@@ -47,7 +48,9 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <App />
+      <BrowserRouter>
+        <AppRouter />
+      </BrowserRouter>
     </ThemeProvider>
   </StrictMode>
 );
