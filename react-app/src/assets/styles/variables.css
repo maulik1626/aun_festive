@@ -1,8 +1,8 @@
 :root {
-  --color-primary: #6D307C;
-  --color-text: #363636;
-  --color-bg: #FFFFFF;
+    --color-primary: #6D307C;
+    --color-text: #363636;
+    --color-bg: #FFFFFF;
 
-  --font-primary: "Brand Primary", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif;
-  --font-highlight: "Brand Highlight", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif;
+    --font-primary: "Brand Primary", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif;
+    --font-highlight: "Brand Highlight", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif;
 }
