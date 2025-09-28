@@ -1,3 +1,3 @@
-export default function apiMiddleware(){
+export default function apiMiddleware() {
   return (next) => (action) => next(action);
 }

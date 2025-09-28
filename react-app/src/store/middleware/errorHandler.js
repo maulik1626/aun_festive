@@ -1,4 +1,4 @@
-export default function errorHandler(){
+export default function errorHandler() {
   return (next) => (action) => {
     try {
       return next(action);
