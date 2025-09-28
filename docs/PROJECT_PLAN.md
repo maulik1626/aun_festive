@@ -331,14 +331,14 @@ node -v
 
 ## Step 10 – Utilities & hooks
 
-- [ ] Step 10 complete
+- [X] Step 10 complete
 
 **Goal**: Shared helpers and reusable React hooks.
 
 **Tasks**
 
-- [ ] Helpers: `formatters`, `validators`, `converters`, `calculations`, `storage`
-- [ ] Hooks: `useApi`, `useLocalStorage`, `useResponsive`, `useDebounce`, `useErrorHandler`, `useAuth`, `useCart`
+- [X] Helpers: `formatters`, `validators`, `converters`, `calculations`, `storage`
+- [X] Hooks: `useApi`, `useLocalStorage`, `useResponsive`, `useDebounce`, `useErrorHandler`, `useAuth`, `useCart`
 
 **Notes**
 
@@ -350,7 +350,7 @@ node -v
 
 **Definition of Done**
 
-- [ ] Hooks tested and used by ViewModels/Views
+- [X] Hooks tested and used by ViewModels/Views
 
 ---
 
