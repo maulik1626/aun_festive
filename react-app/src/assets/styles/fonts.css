@@ -1,1 +1,78 @@
-/* @font-face definitions go here */
+@font-face {
+  font-family: "Brand Highlight";
+  src: url("../fonts/highlight/Amulya-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brand Highlight";
+  src: url("../fonts/highlight/Amulya-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brand Highlight";
+  src: url("../fonts/highlight/Amulya-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brand Highlight";
+  src: url("../fonts/highlight/Amulya-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brand Highlight";
+  src: url("../fonts/highlight/Amulya-MediumItalic.otf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brand Highlight";
+  src: url("../fonts/highlight/Amulya-LightItalic.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Brand Primary";
+  src: url("../fonts/primary/Synonym-Extralight.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brand Primary";
+  src: url("../fonts/primary/Synonym-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brand Primary";
+  src: url("../fonts/primary/Synonym-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brand Primary";
+  src: url("../fonts/primary/Synonym-Semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brand Primary";
+  src: url("../fonts/primary/Synonym-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
