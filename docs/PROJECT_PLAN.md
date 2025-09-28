@@ -145,15 +145,15 @@ node -v
 
 ## Step 3 – Configuration (aliases, env, constants)
 
-- [ ] Step 3 complete
+- [X] Step 3 complete
 
 **Goal**: Establish path aliases, environment variables, and base constants.
 
 **Tasks**
 
-- [ ] Add `jsconfig.json` path aliases (`@assets`, `@config`, `@data`, `@presentation`, `@store`, `@utils`, `@services`, `@navigation`)
-- [ ] Add `.env`, `.env.development`, `.env.production`
-- [ ] Implement `config/constants/*`, `config/api.js`, `config/routes.js`, `config/environment.js`
+- [X] Add `jsconfig.json` path aliases (`@assets`, `@config`, `@data`, `@presentation`, `@store`, `@utils`, `@services`, `@navigation`)
+- [X] Add `.env`, `.env.development`, `.env.production`
+- [X] Implement `config/constants/*`, `config/api.js`, `config/routes.js`, `config/environment.js`
 
 **Notes**
 
@@ -165,8 +165,8 @@ node -v
 
 **Definition of Done**
 
-- [ ] Imports resolve via aliases
-- [ ] App reads env vars correctly
+- [X] Imports resolve via aliases
+- [X] App reads env vars correctly
 
 ---
 
