@@ -14,13 +14,32 @@ const theme = createTheme({
     text: { primary: "#363636" },
   },
   typography: {
-    fontFamily: '"Brand Primary", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif',
-    h1: { fontFamily: '"Brand Highlight", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif' },
-    h2: { fontFamily: '"Brand Highlight", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif' },
-    h3: { fontFamily: '"Brand Highlight", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif' },
-    h4: { fontFamily: '"Brand Highlight", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif' },
-    h5: { fontFamily: '"Brand Highlight", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif' },
-    h6: { fontFamily: '"Brand Highlight", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif' },
+    fontFamily:
+      '"Brand Primary", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif',
+    h1: {
+      fontFamily:
+        '"Brand Highlight", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif',
+    },
+    h2: {
+      fontFamily:
+        '"Brand Highlight", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif',
+    },
+    h3: {
+      fontFamily:
+        '"Brand Highlight", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif',
+    },
+    h4: {
+      fontFamily:
+        '"Brand Highlight", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif',
+    },
+    h5: {
+      fontFamily:
+        '"Brand Highlight", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif',
+    },
+    h6: {
+      fontFamily:
+        '"Brand Highlight", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif',
+    },
   },
 });
 
