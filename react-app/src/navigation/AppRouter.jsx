@@ -7,6 +7,10 @@ import NotFoundView from "@presentation/views/common/NotFoundView.jsx";
 import HomeView from "@presentation/views/common/HomeView.jsx";
 import LoginView from "@presentation/views/auth/LoginView";
 import RegisterView from "@presentation/views/auth/RegisterView";
+import { AuthRoutes } from "@navigation/routes/AuthRoutes.jsx";
+import { ProductRoutes } from "@navigation/routes/ProductRoutes.jsx";
+import { CartRoutes } from "@navigation/routes/CartRoutes.jsx";
+import { OrderRoutes } from "@navigation/routes/OrderRoutes.jsx";
 
 function ProtectedRoute({ isAuthed }) {
   if (!isAuthed) return <Navigate to="/auth/login" replace />;
@@ -26,13 +30,15 @@ export default function AppRouter() {
           <Route element={<ProtectedRoute isAuthed={isAuthed} />}>
             {/* Protected routes go here, e.g. profile, orders */}
           </Route>
+
+          {/* Feature route groups */}
+          {AuthRoutes()}
+          {ProductRoutes()}
+          {CartRoutes()}
+          {OrderRoutes()}
         </Route>
 
-        <Route path="/auth" element={<AuthLayout />}>
-          <Route index element={<LoginView />} />
-          <Route path="login" element={<LoginView />} />
-          <Route path="register" element={<RegisterView />} />
-        </Route>
+        {/* Keep explicit auth layout group if needed later */}
 
         <Route path="*" element={<GuestLayout />}>
           <Route path="*" element={<NotFoundView />} />
