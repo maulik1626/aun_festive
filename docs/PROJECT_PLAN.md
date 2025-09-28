@@ -280,14 +280,14 @@ node -v
 
 ## Step 8 – Models
 
-- [ ] Step 8 complete
+- [X] Step 8 complete
 
 **Goal**: Data models for auth, products, cart, orders, location, common.
 
 **Tasks**
 
-- [ ] Implement base and feature models
-- [ ] Add validators/parsers (e.g., zod schemas)
+- [X] Implement base and feature models
+- [X] Add validators/parsers (e.g., zod schemas)
 
 **Notes**
 
@@ -299,7 +299,7 @@ node -v
 
 **Definition of Done**
 
-- [ ] Models typed, validated, and used in repos/viewmodels
+- [X] Models typed, validated, and used in repos/viewmodels
 
 ---
 
