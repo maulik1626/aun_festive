@@ -305,15 +305,15 @@ node -v
 
 ## Step 9 – Repositories & data sources
 
-- [ ] Step 9 complete
+- [X] Step 9 complete
 
 **Goal**: Repository interfaces and implementations delegating to remote/local data sources.
 
 **Tasks**
 
-- [ ] Define `I*Repository.js` interfaces per feature
-- [ ] Implement repositories calling remote/local data sources
-- [ ] Local: `LocalStorageManager`, `CacheManager`, `SecureStorage`
+- [X] Define `I*Repository.js` interfaces per feature
+- [X] Implement repositories calling remote/local data sources
+- [X] Local: `LocalStorageManager`, `CacheManager`, `SecureStorage`
 
 **Notes**
 
@@ -325,7 +325,7 @@ node -v
 
 **Definition of Done**
 
-- [ ] All core repos wired and unit-tested with mocked data sources
+- [X] All core repos wired and unit-tested with mocked data sources
 
 ---
 
