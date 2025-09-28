@@ -3,8 +3,8 @@ import { Navigate, Outlet, Route, Routes } from "react-router-dom";
 import MainLayout from "@presentation/views/layout/MainLayout";
 import AuthLayout from "@presentation/views/layout/AuthLayout";
 import GuestLayout from "@presentation/views/layout/GuestLayout";
-import NotFoundView from "@presentation/views/common/NotFoundView";
-import HomeView from "@presentation/views/common/HomeView";
+import NotFoundView from "@presentation/views/common/NotFoundView.jsx";
+import HomeView from "@presentation/views/common/HomeView.jsx";
 import LoginView from "@presentation/views/auth/LoginView";
 import RegisterView from "@presentation/views/auth/RegisterView";
 
