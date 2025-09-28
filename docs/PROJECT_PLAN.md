@@ -226,15 +226,15 @@ node -v
 
 ## Step 6 – State management (Redux Toolkit)
 
-- [ ] Step 6 complete
+- [X] Step 6 complete
 
 **Goal**: Configure store, middleware, and slices.
 
 **Tasks**
 
-- [ ] `store/store.js` and `rootReducer.js`
+- [X] `store/store.js` and `rootReducer.js`
 - [ ] Middleware: `logger`, `errorHandler`, `apiMiddleware`
-- [ ] Slices: `auth`, `products`, `cart`, `orders`, `user`, `location`, `ui`
+- [X] Slices: `auth`, `products`, `cart`, `orders`, `user`, `location`, `ui`
 - [ ] Memoized selectors with `reselect`
 
 **Notes**
@@ -247,7 +247,7 @@ node -v
 
 **Definition of Done**
 
-- [ ] Store integrated with Provider; slices compile; selectors unit-tested minimally
+- [X] Store integrated with Provider; slices compile; selectors unit-tested minimally
 
 ---
 

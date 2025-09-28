@@ -4,6 +4,8 @@ import "./index.css";
 import "@assets/styles/globals.css";
 import { BrowserRouter } from "react-router-dom";
 import AppRouter from "@navigation/AppRouter.jsx";
+import { Provider } from "react-redux";
+import { store } from "@store/store";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 
@@ -48,9 +50,11 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <BrowserRouter>
-        <AppRouter />
-      </BrowserRouter>
+      <Provider store={store}>
+        <BrowserRouter>
+          <AppRouter />
+        </BrowserRouter>
+      </Provider>
     </ThemeProvider>
   </StrictMode>
 );
