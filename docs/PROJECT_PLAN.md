@@ -206,7 +206,7 @@ node -v
 
 - [X] Implement `navigation/AppRouter.js`
 - [X] Create layouts: `MainLayout`, `AuthLayout`, `GuestLayout`
-- [ ] Define route groups: `AuthRoutes`, `ProductRoutes`, `CartRoutes`, `OrderRoutes`
+- [X] Define route groups: `AuthRoutes`, `ProductRoutes`, `CartRoutes`, `OrderRoutes`
 - [X] Add `ProtectedRoute` and basic guards
 
 **Notes**
