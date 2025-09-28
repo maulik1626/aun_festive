@@ -1,1 +1,5 @@
-export default function logger(){ }
+export default function logger(storeAPI){
+  return (next) => (action) => {
+    return next(action);
+  };
+}
