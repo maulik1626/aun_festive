@@ -1,6 +1,9 @@
 import { useMemo } from "react";
 import { useSelector } from "react-redux";
-import { selectCartItems, selectCartCount } from "@store/selectors/cartSelectors";
+import {
+  selectCartItems,
+  selectCartCount,
+} from "@store/selectors/cartSelectors";
 import { calcSubtotal, calcTotal } from "@utils/helpers/calculations";
 
 export const useCart = () => {

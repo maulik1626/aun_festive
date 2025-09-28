@@ -1,8 +1,9 @@
 export function formatCurrency(amount, currency = "USD", locale = "en-US") {
   try {
-    return new Intl.NumberFormat(locale, { style: "currency", currency }).format(
-      amount || 0
-    );
+    return new Intl.NumberFormat(locale, {
+      style: "currency",
+      currency,
+    }).format(amount || 0);
   } catch {
     return `${currency} ${Number(amount || 0).toFixed(2)}`;
   }

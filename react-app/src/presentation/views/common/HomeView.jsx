@@ -17,7 +17,8 @@ export default function HomeView() {
         App is running. Replace this with your actual Home screen.
       </Typography>
       <Typography variant="body2" color="text.secondary" gutterBottom>
-        {isMobile ? "Mobile" : "Desktop"} • Cart: {count} items • Total: {formatCurrency(total)}
+        {isMobile ? "Mobile" : "Desktop"} • Cart: {count} items • Total:{" "}
+        {formatCurrency(total)}
       </Typography>
       <Button variant="contained" color="primary">
         Primary CTA
