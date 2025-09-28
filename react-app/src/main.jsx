@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import "@assets/styles/globals.css";
 import { BrowserRouter } from "react-router-dom";
-import AppRouter from "@navigation/AppRouter";
+import AppRouter from "@navigation/AppRouter.jsx";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 
