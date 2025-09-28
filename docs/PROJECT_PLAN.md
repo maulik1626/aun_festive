@@ -125,9 +125,9 @@ node -v
 
 **Tasks**
 
- - [X] Create `public/` assets and base files (`index.html`, `manifest.json`, `favicon.ico`)
- - [X] Create `src/` sub-structure per architecture (assets, config, localization, data, presentation, store, navigation, utils, services)
- - [X] Add minimal placeholder files in each folder
+- [X] Create `public/` assets and base files (`index.html`, `manifest.json`, `favicon.ico`)
+- [X] Create `src/` sub-structure per architecture (assets, config, localization, data, presentation, store, navigation, utils, services)
+- [X] Add minimal placeholder files in each folder
 
 **Notes**
 
@@ -139,7 +139,7 @@ node -v
 
 **Definition of Done**
 
- - [X] All planned folders exist with placeholder files; app compiles
+- [X] All planned folders exist with placeholder files; app compiles
 
 ---
 
@@ -172,15 +172,15 @@ node -v
 
 ## Step 4 – Styling & assets
 
-- [ ] Step 4 complete
+- [X] Step 4 complete
 
 **Goal**: Global styles, custom fonts, variables.
 
 **Tasks**
 
-- [ ] Place OTF fonts under `assets/fonts/`
-- [ ] Define `@font-face` in `assets/styles/fonts.css`
-- [ ] Create `globals.css` and `variables.css`, import in `src/index.js`
+- [X] Place OTF fonts under `assets/fonts/`
+- [X] Define `@font-face` in `assets/styles/fonts.css`
+- [X] Create `globals.css` and `variables.css`, import in `src/index.js`
 
 **Notes**
 
@@ -192,26 +192,27 @@ node -v
 
 **Definition of Done**
 
-- [ ] Base typography and variables applied app-wide without FOUT
+- [X] Base typography and variables applied app-wide without FOUT
 
 ---
 
 ## Step 5 – Routing
 
-- [ ] Step 5 complete
+- [X] Step 5 complete
 
 **Goal**: AppRouter, route groups, layouts, and guards.
 
 **Tasks**
 
-- [ ] Implement `navigation/AppRouter.js`
-- [ ] Create layouts: `MainLayout`, `AuthLayout`, `GuestLayout`
+- [X] Implement `navigation/AppRouter.js`
+- [X] Create layouts: `MainLayout`, `AuthLayout`, `GuestLayout`
 - [ ] Define route groups: `AuthRoutes`, `ProductRoutes`, `CartRoutes`, `OrderRoutes`
-- [ ] Add `ProtectedRoute` and basic guards
+- [X] Add `ProtectedRoute` and basic guards
 
 **Notes**
 
 - [ ] Define 404 handling strategy
+- [ ] Define 500 handling strategy - reload thrice with debounce on 500, each 2 seconds apart
 
 **TODOs**
 
@@ -219,7 +220,7 @@ node -v
 
 **Definition of Done**
 
-- [ ] All base pages reachable; unauthorized flows blocked by guards
+- [X] All base pages reachable; unauthorized flows blocked by guards
 
 ---
 
