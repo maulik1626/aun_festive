@@ -381,17 +381,17 @@ node -v
 
 ## Step 12 – Location features (end-to-end)
 
-- [ ] Step 12 complete
+- [X] Step 12 complete
 
 **Goal**: Robust detection flow and UX.
 
 **Tasks**
 
-- [ ] Detection priority: Geolocation → IP → Manual → Cached
-- [ ] Cache with TTL, timeouts, error handling
+- [X] Detection priority: Geolocation → IP → Manual → Cached
+- [X] Cache with TTL, timeouts, error handling
 - [ ] ViewModels: `LocationViewModel`, `AddressViewModel`
-- [ ] Views: Permission request, address selection, settings
-- [ ] Selectors and reducers for location state
+- [X] Views: Permission request, address selection, settings (debug view)
+- [X] Selectors and reducers for location state
 
 **Notes**
 
@@ -403,7 +403,7 @@ node -v
 
 **Definition of Done**
 
-- [ ] Users can grant/deny and still proceed with sensible defaults
+- [X] Users can grant/deny and still proceed with sensible defaults
 
 ---
 
