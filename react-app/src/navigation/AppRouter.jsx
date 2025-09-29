@@ -11,6 +11,7 @@ import { AuthRoutes } from "@navigation/routes/AuthRoutes.jsx";
 import { ProductRoutes } from "@navigation/routes/ProductRoutes.jsx";
 import { CartRoutes } from "@navigation/routes/CartRoutes.jsx";
 import { OrderRoutes } from "@navigation/routes/OrderRoutes.jsx";
+import { LocationRoutes } from "@navigation/routes/LocationRoutes.jsx";
 
 function ProtectedRoute({ isAuthed }) {
   if (!isAuthed) return <Navigate to="/auth/login" replace />;
@@ -36,6 +37,7 @@ export default function AppRouter() {
           {ProductRoutes()}
           {CartRoutes()}
           {OrderRoutes()}
+          {LocationRoutes()}
         </Route>
 
         {/* Keep explicit auth layout group if needed later */}
