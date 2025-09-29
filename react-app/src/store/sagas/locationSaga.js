@@ -16,9 +16,7 @@ export function* detectLocationWorker() {
   try {
     const cached = yield call([CacheManager, CacheManager.get], CACHE_KEY);
     if (cached) {
-      yield put(
-        detectLocationSuccess({ coords: cached, source: "cache" })
-      );
+      yield put(detectLocationSuccess({ coords: cached, source: "cache" }));
       return;
     }
 
