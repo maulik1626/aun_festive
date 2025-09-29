@@ -356,14 +356,14 @@ node -v
 
 ## Step 11 – Services (analytics, payment, logging, location base)
 
-- [ ] Step 11 complete
+- [X] Step 11 complete
 
 **Goal**: External integrations with stable service APIs.
 
 **Tasks**
 
-- [ ] `AnalyticsService`, `PaymentService`, `StripeService`, `NotificationService`, `LoggingService`
-- [ ] Location base services: `GeolocationService`, `IpLocationService`, `LocationPermissions`, `LocationManager`
+ - [X] `AnalyticsService`, `PaymentService`, `RazorpayService`, `NotificationService`, `LoggingService`
+- [X] Location base services: `GeolocationService`, `IpLocationService`, `LocationPermissions`, `LocationManager`
 
 **Notes**
 
@@ -375,7 +375,7 @@ node -v
 
 **Definition of Done**
 
-- [ ] Services initialized via DI boundaries; mocks available for tests
+- [X] Services initialized via DI boundaries; mocks available for tests
 
 ---
 
