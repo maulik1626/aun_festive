@@ -409,13 +409,13 @@ node -v
 
 ## Step 13 – Base UI components
 
-- [ ] Step 13 complete
+- [X] Step 13 complete
 
 **Goal**: Foundational components with consistent theming and responsiveness.
 
 **Tasks**
 
-- [ ] `Button`, `Input`, `Text`, `Image`, `Card`, `Modal`, `Loader`, `Icon`
+- [X] `Button`, `Input`, `Text`, `Image`, `Card`, `Modal`, `Loader`, `Icon`
 - [ ] Style modules and usage docs
 
 **Notes**
@@ -428,7 +428,7 @@ node -v
 
 **Definition of Done**
 
-- [ ] Components documented and used in at least one view
+- [X] Components documented and used in at least one view (demo route)
 
 ---
 
