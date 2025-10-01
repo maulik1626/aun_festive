@@ -9,7 +9,8 @@
       "@store/*": ["src/store/*"],
       "@utils/*": ["src/utils/*"],
       "@services/*": ["src/services/*"],
-      "@navigation/*": ["src/navigation/*"]
+      "@navigation/*": ["src/navigation/*"],
+      "@icons/*": ["src/assets/images/icons/*"]
     }
   },
   "include": ["src"]
